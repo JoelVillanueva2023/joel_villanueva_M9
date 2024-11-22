@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cistella de compra</title>
+</head>
+<body>
+    <h1>Benvingut a la nostra botiga</h1>
+    <form action="cistella_compra.php" method="post">
+        <h2>Producte 1: Xandalls esportius</h2>
+        <p>Preu: 25 €</p>
+        <label for="quantitat1">Quantitat: </label>
+        <input type="number" id="quantitat1" name="quantitat1" min="0" value="0"><br><br>
+
+        <h2>Producte 2: Camises estampades</h2>
+        <p>Preu: 15 €</p>
+        <label for="quantitat2">Quantitat: </label>
+        <input type="number" id="quantitat2" name="quantitat2" min="0" value="0"><br><br>
+
+        <button type="submit">Afegir a la cistella</button>
+    </form>
+
+    <br><br>
+    <a href="resum_compra.php">Finalitzar compra</a>
+</body>
+</html>
+
